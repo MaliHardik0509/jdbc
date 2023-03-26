@@ -1,20 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins);
 body{
 	margin:0;
-	color:#ffffff8f;
+	color:#6a6f8c;
+	background:#c8c8c8;
 	font:600 16px/18px 'Open Sans',sans-serif;
-	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./poster/123.jpg);
-	/* background-position: center; */
-    background-size: cover;
-	background-repeat: no-repeat;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #020410;
 }
 
 .header {
@@ -33,7 +33,7 @@ body{
 .navbar a {
     position: relative;
     font-size: 16px;
-    color: #fff;
+    color: #e4e4e4;
     text-decoration: none;
     font-weight: 500;
     margin-right: 30px;
@@ -46,7 +46,7 @@ body{
     bottom: -6px;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #e4e4e4;
     border-radius: 5px;
     transform: translateY(10px);
     opacity: 0;
@@ -62,7 +62,7 @@ body{
     width: 250px;
     height: 45px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #e4e4e4;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -74,19 +74,19 @@ body{
     border: none;
     outline: none;
     font-size: 16px;
-    color: #fff;
+    color: #e4e4e4;
     padding-left: 5px;
   }
   
   .search-bar ::placeholder {
-    color: #ffffff7a;
+    color: #e4e4e4;
   }
   
 
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
 .clearfix:after{clear:both;display:block}
-a{color:#ffffff8f;text-decoration:none}
+a{color:inherit;text-decoration:none}
 
 .login-wrap{
 	width:100%;
@@ -94,6 +94,7 @@ a{color:#ffffff8f;text-decoration:none}
 	max-width:525px;
 	min-height:670px;
 	position:absolute;
+	background:url("https://cdn.dribbble.com/users/1145170/screenshots/15733921/healthcare_3d_icons_db_2_4x.png") no-repeat center;
     top: 90px;
     left: 30%;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
@@ -103,7 +104,7 @@ a{color:#ffffff8f;text-decoration:none}
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:#2c354581;
+	background:rgba(40,57,101,.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -168,7 +169,7 @@ a{color:#ffffff8f;text-decoration:none}
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
-	/* color:#aaa; */
+	color:#aaa;
 	font-size:12px;
 }
 .login-form .group .button{
@@ -228,4 +229,6 @@ a{color:#ffffff8f;text-decoration:none}
 }
 .foot-lnk{
 	text-align:center;
+	margin-bottom:60%;
 }
+

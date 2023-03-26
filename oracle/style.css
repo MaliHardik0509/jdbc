@@ -5,10 +5,12 @@ body{
 	background:#c8c8c8;
 	font:600 16px/18px 'Open Sans',sans-serif;
 	width: 100%;
+	width: 100%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./poster/123.jpg);
 	/* background-position: center; */
     background-size: cover;
 	background-repeat: no-repeat;
+	position: fixed;
 }
 
 * {
@@ -16,6 +18,7 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
+	
 }
 
 body {
@@ -176,7 +179,6 @@ a{color:inherit;text-decoration:none}
 	background:transparent;
 }
 .login-form .group input[data-type="password"]{
-	text-security:circle;
 	-webkit-text-security:circle;
 }
 .login-form .group .label{

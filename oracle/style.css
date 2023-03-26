@@ -81,6 +81,12 @@ body{
   .search-bar ::placeholder {
     color: #ffffff7a;
   }
+  .icon-1 {
+	background-color: transparent;
+	border: none;
+	margin-right: 10px;
+	color: #fff;
+  }
   
 
 *,:after,:before{box-sizing:border-box}
